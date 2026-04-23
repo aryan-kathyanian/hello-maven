@@ -8,5 +8,5 @@
   tasks:
     - name: Copy the artifact to the target location
       copy:
-        src: "/home/student/.jenkins/workspace/exp 6/MyMavenApp-1.0-SNAPSHOT.jar"
-        dest: "/home/student/1CR23AD024/t.jar"
+        src: "target/MyMavenApp-1.0-SNAPSHOT.jar"
+        dest: "/home/student/Desktop/t.jar"
